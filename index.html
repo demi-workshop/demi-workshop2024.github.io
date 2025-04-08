@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>2nd Workshop in Data Engineering in Medical Imaging (DEMI) @ MICCAI 2024  </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" sizes="(max-width: 150px) 150px,
+    (max-width: 150px)" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#C70039">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="icon" type="image/png" href="/assets/images/demi_logo2.png">
+  <body style="text-align: justify;">
+
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <header class="page-header" role="banner">
+        <div>
+          <h1 class="project-name">Data Engineering in Medical Imaging (DEMI) </h1>
+          <img src="/assets/images/demi_logo2.png" alt="demi" style=”max-width:640px;max-height:320px;" class="page-header"/>
+        </div>  
+
+      <div class="row">
+        <img src="/assets/images/webpage/miccai2024-logo.png" alt="miccai2024-logo" style=”max-width:150px;max-height:150px;" id="hp"/>
+        <div class="column">
+        <h2 class="project-tagline"><MICCAI2023> DEMI @ MICCAI2024 Workshop, October, 2024 </h2>  
+        </div>
+        <div class="column">
+        <a href="#Workshop themes" class="btn"> <strong>Workshop Themes</strong></a>
+        <a href="#Keynote speakers" class="btn"> <strong>Keynote Speakers</strong></a>
+        <a href="#Important Dates" class="btn"> <strong>Important dates </strong></a>
+        <a href="#Submission" class="btn"> <strong>Submission</strong></a>
+        <a href="#Workshop sessions" class="btn"> <strong>Sessions/Agenda</strong></a>
+        </div>
+      </div>
+        </header>
+
+
+        <main id="content" class="main-content" role="main">
+          <h1 id="New">Recent updates</h1>
+          <ul> 
+            <li><p align="justify"> <strong> <a href="https://link.springer.com/book/10.1007/978-3-031-73748-0"> Second DEMI, MICCAI 2024, Proceedings </a> </strong> 
+            <li><p align="justify"> <a href="#Workshop sessions"> <strong>Program  update</strong></a> </p>  </li>
+            <li><p align="justify"> <strong> Submissions opens on</strong>: 2nd May 2024 <!-- <a href="https://cmt3.research.microsoft.com/DEMI2023"> CMT for DEMI@MICCAI2023</a></p>  </li> -->
+            <!-- <li><p align="justify"> <strong> Submit your 8-10 page MICCAI format paper here (please read <a href="#Submission"> <strong>submission instructions</strong></a>) </strong> </p>  </li> -->
+          </ul>
+            
+         <h1 id="Workshop sessions">Workshop Programme</h1>
+            <p> <strong> 13:30 </strong>: <strong>Commencement</strong> </p>
+            <p> <strong> 13:40 </strong>:  <strong>First Keynote </strong>by <a href="#ProfAle">Prof. Alejandro Frangi</a></p>
+            <p> <strong> 14:25 </strong>:  <strong>Spotlight Presentations I</strong> <emphasis> <a href="#Accepted Papers"> Paper 1 to 11 </a></emphasis> </p>
+            <p> <strong> 15:00 </strong>: <strong>Break/Poster </strong> </p>
+            <p> <strong> 16:00 </strong>: <strong>Second Keynote</strong> by <a href="#ProfLena">Prof. Lena Maier-Hein</a></p>
+            <p> <strong> 16:45 </strong>:  <strong>Spotlight Presentations II</strong> <emphasis><a href="#Accepted Paper">Paper 12 through 18</a></emphasis>  </p>
+            <p> <strong> 17:06 </strong>:  <strong>Third Keynote</strong> by <a href="#ProfBern">Prof. Bernhard Kainz</a></p>
+            <p> <strong> 17:51 </strong>: <strong>Closing</strong> </p>
+            <p> <strong> 18:00 </strong>:  <strong>Workshop ends</strong> </p> 
+
+            
+        <h1 id="workshop-description">Workshop Description</h1>
+            <p align="justify">Data engineering plays a vital role in advancing medical imaging research, where limited data availability poses a significant challenge. 
+                To tackle this issue, the medical imaging community has adopted various techniques, including active learning, label and data augmentation, self-supervision, and synthetic data generation.</p>
+<p align="justify">However, the potential of these methods has yet to be fully leveraged. Data augmentation, for instance, is often randomly chosen based on intuition. 
+    Yet previous work has shown that it is crucial to jointly optimize the augmentations' complexity and affinity, i.e., how much the augmentation shifts the decision boundary of the clean baseline model. 
+    Other studies suggest that not every synthetic example improves the model's generalizability, with some even hurting performance if not reasonably chosen. 
+    Similarly, the effect of self-supervised pre-training methods on downstream tasks generally depends on the overlap between the pretext task and the downstream tasks. 
+    For instance, a model trained to predict rotation angles will not be effective in rotationally invariant organs.   </p>  
+<p align="justify">We witness various research efforts in the data engineering domain, but most are pursued in isolation. And many research questions in data engineering that are of utmost importance to the success of machine learning methods for medical image analysis remain unanswered. 
+Some questions this workshop hopes to help answer are:
+                <ul>
+
+                
+                <li>What data should we collect to train a model for a given medical task?</li>
+                <li>How do we identify diverse and discriminative examples for a downstream task in complex biomedical datasets? For instance, do we need to annotate every frame in a surgical video? </li>
+                <li>How do we identify the best augmentation strategy?</li>
+                <li>What is the best way to spend a data labeling budget (time/money)? How much data should we collect, and how much of it should we label? </li>
+                <li>How do we learn to synthesize data for a downstream medical task? </li>
+                <li>How do we design suitable pretext tasks for a particular downstream task? </li>
+                <li>And overall, how can we blend exisitng data-focused works to extract the most benefit from the data?</li>
+                </ul>  
+
+              
+            </p>  
+            <p align="justify"> The workshop invites researchers to submit their work in the field of medical imaging around the central theme of data engineering. Some themes we would like to explore include for instance:
+            </p>  
+
+
+            <h1 id="Workshop themes">Workshop themes</h1>
+            <ol> 
+              <li><p align="justify"> <strong>Data Augmentation and Label Augmentation in the Medical Domain:</strong> includes data augmentation through geometric transformations or application-aware policies. It also investigates data generated from virtual environments, phantoms, or generative models.
+              </p></li>
+              <li><p align="justify"> <strong>Active Learning and Active Synthesis:</strong> covers methods that find the most discriminative and diverse subset of unlabelled data to train a model for various clinical applications. Active synthesis is about generating synthetic data for a particular application.
+              </p></li>
+                
+               <li><p align="justify"> <strong>Federated learning:</strong> distributed data management and learning to address privacy concerns and security, for instance, across institutions or countries. 
+                </p></li>
+                <li><p align="justify"> <strong>Multimodal learning:</strong> includes approaches to combine data from multiple sources and sensors (e.g. CT, MRI, endoscope, text, audio, depth, etc.)
+                </p></li>
+                <li><p align="justify"> <strong>Self-Supervised Learning Algorithms for Medical Downstream Tasks:</strong> investigates application-specific relevant pretext tasks for pre-training models in a self-supervised manner. 
+                </p></li>
+                <li><p align="justify"> <strong>Large Language and Vision Language Models:</strong> for synthetic data generation and data augmentation. 
+                </p></li>
+                <li><p align="justify"> <strong>
+                 Large-scale data management and data quality assessment.</strong>
+                </p></li>
+            </ol>
+            
+          <h1 id="Keynote speakers">Keynote speakers</h1> 
+        <!-- <p align="justify"> <strong></strong> </p> -->
+        <p  id="ProfAle" align="justify"> <strong>Prof. Alejandro Frangi</strong>
+          <!-- <img src="/assets/images/keynote speakers/Frangi.png" alt="Prof. Alejandro Frangi" width="300"  id="hp2"/> -->
+        </p></li>
+        
+        <p>Alejandro Frangi is a prominent researcher in the field of medical image analysis and modeling, with a focus on machine learning and computational physiology. His research interests lie at the intersection of medical image analysis, machine learning, and computational physiology, 
+          with a particular emphasis on statistical methods applied to population imaging and in silico clinical trials. His work has been highly interdisciplinary, spanning the areas of cardiovascular, musculoskeletal, and neurosciences.
+          Professor Frangi's research has been instrumental in advancing the field of medical image analysis and computational modeling, leading to the development of three spin-off companies: Clintelis SA in 2009, GalgoMedical SA in 2013, and adsilico Ltd in 2022. 
+          His contributions have been recognized through numerous awards and honors, including being named an IEEE Fellow (2014), EAMBES Fellow (2013), SPIE Fellow (2020), AAIA-AI Fellow (2021), MICCAI Fellow (2021), ATI Turing Fellow (2021), and FREng (2023). 
+          He has also served in various leadership roles, including serving on the Board of Directors of the Medical Image Computing and Computer-Assisted Interventions Society (MICCAI) from 2014 to 2019 and as Chair of the Editorial Board of the MICCAI-Elsevier Book Series from 2017 to 2023.          
+        </p>
+        <p id="ProfBern" align="justify"> <strong>Prof. Bernhard Kainz</strong>
+        <!-- <img src="/assets/images/keynote speakers/kainz.png" alt="Prof. Bernhard Kainz" width="300"  id="hp2"/> -->
+      </p></li>
+        <p>Bernhard Kainz is a distinguished academic figure with a robust background in the field of Medical Image Computing. Holding the position of Associate Professor in the Department of Computing at Imperial College London, 
+          he leads the human-in-the-loop computing group and co-leads the biomedical image analysis research group (BioMedIA). Additionally, he serves as a Professor at Friedrich-Alexander-University 
+          Erlangen-Nuremberg, where he heads the Image Data Exploration and Analysis Lab (IDEA Lab). His research primarily focuses on intelligent algorithms in healthcare, particularly in Medical Imaging,
+          with a special emphasis on self-driving medical image acquisition that can assist human operators in real-time diagnostics.
+        </p>
+
+
+        <p id="ProfLena" align="justify"> <strong>Prof. Lena Maier-Hein</strong>
+          <!-- <img src="/assets/images/keynote speakers/kainz.png" alt="Prof. Bernhard Kainz" width="300"  id="hp2"/> -->
+        </p></li>
+          <p>Lena Maier-Hein is a full professor at Heidelberg University (Germany) and managing director of the National Center for Tumor Diseases (NCT) Heidelberg. At the German Cancer Research Center (DKFZ) she is head of the division Intelligent Medical Systems (IMSY) and managing director of the "Data Science and Digital Oncology" cross-topic program. Her research concentrates on machine learning-based biomedical image analysis with a specific focus on surgical data science, computational biophotonics and validation of machine learning algorithms. She is a fellow of the Medical Image Computing and Computer Assisted Intervention (MICCAI) society and of the European Laboratory for Learning and Intelligent Systems (ELLIS), president of the MICCAI special interest group on challenges and chair of the international surgical data science initiative.
+            Lena Maier-Hein serves on the editorial board of the journals Nature Scientific Data, IEEE Transactions on Pattern Analysis and Machine Intelligence and Medical Image Analysis. During her academic career, she has been distinguished with several science awards including the 2013 Heinz Maier Leibnitz Award of the German Research Foundation (DFG) and the 2017/18 Berlin-Brandenburg Academy Prize. She has received a European Research Council (ERC) starting grant (2015-2020) and consolidator grant (2021-2026).            
+          </p>
+    
+
+    
+    <h1 id="Important Dates">Important Dates</h1>
+    <!-- <p>Coming Soon</p> -->
+   <p><strong>Paper submission begins:</strong> 2nd May 2024</p>
+<!-- <p><strong>Submission deadline:</strong> <del>24th June 2024</del> <span style="color: red;">14th July 2023</span></p> -->
+  <p><strong>Submission deadline:</strong> <del>24th June 2024</del><span style="color: red;"> 29th June 2024</span></p>
+<p><strong>Paper decision notification:</strong> 15th July 2024</p> <!--<span style="color: red;">28th July 2023</span></p>-->
+    <p><strong>Camera ready submission:</strong> 21st July 2024 </p>  <!-- <span style="color: red;">4th August 2023</span></p> -->
+      <p><strong>Workshop day:</strong> 10th October 2024</p>
+          
+    <h1 id="Submission">Submission</h1>
+    <!-- <p>Coming Soon</p> -->
+    <p><strong>CMT submission website</strong>:<a href="https://cmt3.research.microsoft.com/DEMI2024"> CMT for DEMI@MICCAI2024</a> </p>
+    <p>Accepted papers will be published in a joint proceeding with the MICCAI 2024 conference. </p>
+    <p>All papers should be formatted according to the <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"> Lecture Notes in Computer Science templates</a>.</p>
+    <p><span lang="EN-US">We recommend<strong> submission up to 8-pages and 2-pages of references (same as MICCAI main conference) for a double-blind peer review process</strong></span></p>
+    <p>In addition, since the joint workshop has adhered to the <strong>double-blinded peer review process</strong>, we ask that you <strong>please follow the <a href="https://conferences.miccai.org/2024/en/PAPER-SUBMISSION-AND-REBUTTAL-GUIDELINES.html">MICCAI2024 anonymity guidelines</strong></a> when preparing your intial submission.</p> 
+
+
+    <h1 id="Proceedings">Proceedings</h1>
+    <p align="justify"><span style="font-size: 12pt ;" style="padding: 20px;"><br />
+    <img src="/assets/images/webpage/LNCS-Logo.png" alt="LNCS" style="float:left" width="128" /> <p>Accepted papers will be published in LNCS as a separate DEMI 2024 (MICCAI Workshop) proceeding </p>
+
+  <h2 id="Accepted Papers">Accepted Papers</h2>
+<ol>
+        <li>
+            <strong> Real Time Multi Organ Classification on Computed Tomography Images </strong><br>
+            Halid Ziya Yerebakan (Siemens Healthineers)*, Gerardo Hermosillo (Siemens Medical Solutions, US), Yoshihisa Shinagawa (Siemens Healthineers)
+        </li>
+
+        <li>
+            <strong>Evaluating Histopathology Foundation Models for Few-shot Tissue Clustering: an Application to LC25000 Augmented Dataset Cleaning  </strong><br>
+            George Batchkala (IBME/BDI, Department of Engineering Science, University of Oxford, Oxford, UK)*, Bin Li (University of Oxford), Jens Rittscher (Oxford)
+        </li>
+    
+        <li>
+            <strong>Counterfactual contrastive learning: robust representations via causal image synthesis</strong><br>
+            Melanie Roschewitz (Imperial College London)*, Fabio De Sousa Ribeiro (Imperial College London), Tian Xia (Imperial College London), Galvin Khara (Kheiron Medical Technologies), Ben Glocker (Imperial College London)
+        </li>
+
+        <li>
+            <strong>TTA-OOD: Test-time Augmentation for Improving Out-of-Distribution Detection in Gastrointestinal Vision</strong><br>
+            Sandesh Pokhrel* (Nepal Applied Mathematics and Informatics Institute for Research), Sanjay Bhandari* (NepAl Applied Mathematics and Informatics Institute for research), Eduard Vazquez (Fogsphere), Tryphon Lambrou (University of Aberdeen), Prashnna K Gyawali (West Virginia University), Binod Bhattarai (University of Aberdeen)*
+        </li>
+
+        <li>
+            <strong>  Exploring the Effect of Dataset Diversity in Self-Supervised Learning for Surgical Computer Vision </strong><br>
+            Tim J.M. Jaspers (Eindhoven University of Technology)*, Ronald de Jong (Eindhoven University of Technology), Yasmina Al Khalil (Eindhoven University of Technology), Tijn Zeelenberg (Eindhoven University of Technology), Carolus H.J. Kusters (Eindhoven University of Technology), Yiping Li (Eindhoven University of Technology), Romy C van Jaarsveld (University Medical Center Utrecht), Aron Bakker (University Medical Center Utrecht), Jelle Ruurda (University Medical Center Utrecht ), Willem Brinkman (University Medical Center Utrecht ), P. H. N. de With (Eindhoven University of Technology), Fons van der Sommen (Dept. Electrical Engineering, Eindhoven University of Technology, Eindhoven, NL)
+        </li>
+
+        <li>
+            <strong>USegMix: Unsupervised Segment Mix for Efficient Data Augmentation in Pathology Images</strong><br>
+            Jiamu Wang (Korea University)*, Jin Tae Kwak (Korea University)
+        </li>
+
+        <li>
+            <strong>Synthetic Simplicity: Unveiling Bias in Medical Data Augmentation</strong><br>
+            Krishan Agyakari Raja Babu (Indian Institute of Technology Madras)*, Rachana Sathish (GE Healthcare), Mrunal Pattanaik (GE Healthcare ), Rahul Venkataramani (GE Healthcare)
+        </li>
+
+         <li>
+            <strong>Pre-processing and quality control of large clinical CT head datasets for intracranial arterial calcification segmentation </strong><br>
+            Benjamin Jin (University of Edinburgh)*, María del C. Valdés Hernández (University of Edinburgh), Alessandro Fontanella (University of Edinburgh), Wenwen Li (University of Edinburgh), Eleanor Platt (University of Edinburgh), Paul Armitage (University of Sheffield), Amos Storkey (U Edinburgh), Joanna Wardlaw (University of Edinburgh), Grant Mair (University of Edinburgh)
+        </li>
+
+        <li>
+            <strong>EndoDepth: A Benchmark for Assessing Robustness in Endoscopic Depth Prediction </strong><br>
+            Ivan Reyes-Amezcua (CINVESTAV)*, Ricardo Espinosa (Universidad Panamericana), Christian Daul (Université de Lorraine), Gilberto Ochoa-Ruiz (Tecnologico de Monterrey), Andres Mendez-Vazquez (Cinvestav GDL)
+        </li>
+
+        <li>
+            <strong>Translating Simulation Images to X-ray Images via Multi-Scale Semantic Matching </strong><br>
+            Jingxuan Kang (University of Liverpool), Tudor Jianu (University of Liverpool), Baoru Huang (Imperial College London), Binod Bhattarai (University of Aberdeen), Ngan Le (University of Arkansas), Frans Coenen (University of Liverpool), Anh Nguyen (University of Liverpool)*
+        </li>
+
+        <li>
+            <strong>Simple is More: Efficient Liver View Classification in Ultrasound Images Using Minimal Labeled Data and Simple Neural Network Architecture </strong><br>
+            Abder-Rahman Ali (Massachusetts General Hospital/Harvard Medical School)*, Anthony Samir (MGH/MIT Center for Ultrasound Research & Translation)
+        </li>
+
+
+        <li>
+            <strong> Self-supervised pretraining for cardiovascular magnetic resonance cine segmentation </strong><br>
+            Rob A.J. de Mooij (Eindhoven University of Technology)*, Josien PW Pluim (Eindhoven University of Technology), Cian M Scannell (Eindhoven University of Technology)
+        </li>
+
+    <li>
+            <strong> Patient-level Contrastive Learning for Enhanced Biomarker Prediction in Retinal Imaging </strong><br>
+         Hyeonmin Kim (postech), Chanyang Seo (Mediwhale), Yunnie Cho (Seoul National University Hospital), Tae Keun Thomas Yoo (Mediwhale; Hangil Eye Hospital)*
+    </li>
+
+
+    <li>
+            <strong> Enhancing Retinal Disease Classification from OCTA Images via Active learning Techniques </strong><br>
+        Jacob D Thrasher (West Virginia University)*, Annahita Amireskandari (West Virginia University), Prashnna Gyawali (West Virginia University)
+    </li>
+
+
+    <li>
+            <strong> Improving NeRF representation with no pose prior for novel view synthesis in colonoscopy  </strong><br>
+    Pedro Chavarrias (University of Leeds), Binod Bhattarai (University of Aberdeen), Sharib Ali (University of Leeds)*
+    </li>
+    
+        <li>
+            <strong>  Task-Aware Active Learning for Endoscopic Polyp Segmentation   </strong><br>
+    Pranav Poudel (Nepal Applied Mathematics and Informatics Institute for Research)*, Shrawan Kumar Thapa (NAAMII), Sudarshan Regmi (Pulchowk Campus, Tribhuvan University), Binod Bhattarai (University of Aberdeen), Danail Stoyanov (UCL)
+    </li>
+    
+     <li>
+            <strong> Cross-Task Data Augmentation by Pseudo-label Generation for Region Based Coronary Artery Instance Segmentation  </strong><br>
+        Sandesh Pokhrel* (Nepal Applied Mathematics and Informatics Institute for Research), Sanjay Bhandari* (NepAl Applied Mathematics and Informatics Institute for research), Eduard Vazquez (Fogsphere), Yash R Shrestha (University of Lausanne), Binod Bhattarai (University of Aberdeen)*
+        </li>
+
+    <li>
+            <strong> Optimizing Delay Estimation in Breast RUCT Reconstruction Using Self-supervised Blind Segment Network  </strong><br>
+    Lei He (Huazhong University of Science and Technology), Zhaohui Liu (Huazhong University of Science and Technology), QIUDE ZHANG (Huazhong University of Science and Technology), Liang Zhou (Huazhong University of Science and Technology), Yuxin Cai (Huazhong University of Science and Technology) Jing Yuan (Zhejiang Normal University), Mingyue Ding (Huazhong University of Science and Technology),Ming Yuchi (Huazhong University of Science and Technology), Wu Qiu (Huazhong University of Science and Technology)*
+        </li>
+    
+
+    
+    </ol>
+
+      <h1 id="Organising committee">Organising committee</h1>
+        <table>
+          <tbody>
+            <tr>
+              <td><img src="/assets/images/organisers/4856_0317138.jpg" alt="Binod Bhattarai" width="300"  id="hp2"/></td>
+              <td><img src="/assets/images/organisers/shariba.jpeg" alt="Sharib Ali" width="300"  id="hp2"/></td>
+              <td><img src="/assets/images/organisers/anita.jpg" alt="Anita Rau" width="300" id="hp2"/></td>
+            </tr>
+            <tr>
+              <td><a href="https://sites.google.com/view/bbinod">Binod Bhattarai</a><br />University of Aberdeen, UK</td>
+              <td><a href="https://eps.leeds.ac.uk/computing/staff/11465/dr-sharib-ali">Sharib Ali</a><br /> University of Leeds, UK </td>
+              <td><a href="https://profiles.stanford.edu/anita-rau">Anita Rau</a><br />Stanford University, USA
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/images/organisers/razvan.jpg" alt="Razvan Caramalau" width="300"  id="hp2" /></td>
+              <td><img src="/assets/images/organisers/AnhNguyen.png" alt="anguyen"  width="300"  id="hp2"/></td>
+              <td><img src="/assets/images/organisers/Prashnna.jpeg" alt="Prashnna" width="300" id="hp2"/></td>
+            </tr>
+            <tr>
+              <td><a href="https://iris.ucl.ac.uk/iris/browse/profile?upi=RCARA82">Razvan Caramalau</a><br /> University College London, UK
+              <td><a href="https://www.csc.liv.ac.uk/~anguyen/">Anh Nguyen</a><br /> University of Liverpool, UK</td>
+                <td><a href="https://directory.statler.wvu.edu/faculty-staff-directory/prashnna-gyawali">Prashnna Gyawali</a><br /> West Virginia University, USA
+                </td>
+                
+            </tr>
+            <td><img src="/assets/images/organisers/ana.jpg" alt="ana-namburete" width="300" id="hp2"/></td>
+            <td><img src="/assets/images/organisers/Dan.jpg" alt="Danail Stoyanov" width="300" id="hp2"></td>
+            <tr>
+              <td><a href="https://www.pmb.ox.ac.uk/person/professor-ana-namburete">Ana Namburete</a><br /> University of Oxford, UK
+              </td>
+              <td><a href="https://www.ucl.ac.uk/surgical-robot-vision/people/danail-stoyanov">Danail Stoyanov</a><br />University College London, UK
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+<h1>Technical Program Committee</h2>
+<!--   <p><strong>TBD</strong></p>  -->
+<table>
+  <tr>
+    <td>Annika Reinke (German Cancer Research Center, Heidelberg, Germany)</td>
+  </tr>
+  <tr>
+    <td>Bidur Khanal (Rochester Institute of Technology, Rochester, USA)</td>
+  </tr>
+  <tr>
+    <td>Chloe He (UCL, London, UK)</td>
+  </tr>
+  <tr>
+    <td>DIMITRIOS ANASTASIOU (University College London, London, UK)</td>
+  </tr>
+  <tr>
+    <td>Ferdian Jovan (University of Aberdeen, Aberdeen, UK)</td>
+  </tr>
+  <tr>
+    <td>Francisco Vasconcelos (University College London, London, UK)</td>
+  </tr>
+  <tr>
+    <td>Gilberto Ochoa-Ruiz (Tecnologico de Monterrey, Monterrey, Nuevo León, Mexico)</td>
+  </tr>
+  <tr>
+    <td>Halid Ziya Yerebakan (Siemens Healthineers, Erlangen, Germany)</td>
+  </tr>
+  <tr>
+    <td>Jacob Thrasher (West Virginia University, West Virginia, USA)</td>
+  </tr>
+  <tr>
+    <td>Jialang Xu (University College London, London, UK )</td>
+  </tr>
+  <tr>
+    <td>Josiah Aklilu (Stanford University, California, USA)</td>
+  </tr>
+  <tr>
+    <td>Mansoor Ali Teevno (Tecnologico de Monterrey, Monterrey, Nuevo León, Mexico)</td>
+  </tr>
+  <tr>
+    <td>Pranav Poudel (Nepal Applied Mathematics and Informatics Institute for Research, Lalitpur, Nepal)</td>
+  </tr>
+  <tr>
+    <td>Prashant Shrestha (Nepal Applied Mathematics and Informatics Institute for Research, Lalitpur, Nepal)</td>
+  </tr>
+  <tr>
+    <td>Rogerio Nespolo (University of Illinios Chicago, Chicago, USA)</td>
+  </tr>
+  <tr>
+    <td>Sandesh Pokhrel (Nepal Applied Mathematics and Informatics Institute for Research, Lalitpur, Nepal)</td>
+  </tr>
+  <tr>
+    <td>Sanskar Amgain (Nepal Applied Mathematics and Informatics Institute for Research, Lalitpur, Nepal)</td>
+  </tr>
+  <tr>
+    <td>Tianhong Dai (University of Aberdeen, Aberdeen, UK)</td>
+  </tr>
+  <tr>
+    <td>Tim Jaspers (Eindhoven University of Technology, Eindhoven, Netherlands)</td>
+  </tr>
+  <tr>
+    <td>Wanwen Chen (The University of British Columbia, Vancouver, Canada)</td>
+  </tr>
+  <tr>
+    <td>Ziyang Wang (University of Oxford, London, UK)</td>
+  </tr>
+</table>
+
+<h1>Web and Publicity Chair</h2>
+  <li><a href="https://www.naamii.org.np/teams/sandesh-pokhrel/">Sandesh Pokhrel, NAAMII, Nepal</a></li> 
+  <div>      
+      <h1 id="Sponsors">Sponsors</h1>
+      <a href="https://www.mva.ai/"> 
+      <img src="/assets/images/mvalogo-1.png" alt="Logo" style="float:left" width="256" />
+       </a></br>
+<!--         MEDICAL VOLUME ANNOTATOR</br>
+        <strong>MVA.ai</strong></br> -->
+        <div style="clear:both;"></div>
+          <p>We are seeking additional academic/industrial sponsorships. Please contact us for more details: <a href="mailto:demiworkshop23@gmail.com">demiworkshop23@gmail.com</a></p>
+    </div>
+  <h1 id="Sponsors">Past Iterations</h1>
+  <li><a href="https://demi-workshop.github.io/demi-workshop2023.github.io/">DEMI@MICCAI2023 </a></li>
+    <footer class="site-footer">
+        
+      <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+    </footer>
+        </main>
+    </body>
+</head>
